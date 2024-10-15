@@ -9,8 +9,20 @@ The script is run by the following options:
 . -h : Help information
 
 Example:
-1- To organize by type: ./file_organizer.sh -d /path/to/directory -t
+1- To organize by type: 
 
-2- To organize by date: ./file_organizer.sh -d /path/to/directory
+Make a directory "test_directory"
+Add different types of files : 1) file1.txt 2)Image1.png 3) document1.pdf
+Then run the script using:
+./file_organizer.sh -d /path/to/directory -t
+Subdirectories will be made for each file type.
+
+2- To organize by date:
+
+Make a directory "test_directory"
+Add .txt files : 1) file1.txt 2)file2.txt 3) file3.txt
+Then run the script using:
+./file_organizer.sh -d /path/to/directory
+Subdirectories will be made according to the modification dates.
 
 The Script is made executable by the command: chmod +x file_organizer.sh
