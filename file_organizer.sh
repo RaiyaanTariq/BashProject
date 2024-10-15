@@ -5,8 +5,8 @@ show() {
     echo "Usage: $0 -d <directory> [-t] [-h]"
     echo "Options:"
     echo "  -d <directory>  Directory to organize"
-    echo "  -t              Organize files by type (default: by date)"
-    echo "  -h              Display help message"
+    echo "  -t              Organize files by type, (default: by date)"
+    echo "  -h              Help information"
 }
 # Check for arguments
 if [[ $# -eq 0 ]]; 
