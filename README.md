@@ -1,7 +1,7 @@
 # BashProject
 File Organizer Script
 
-The purpose of this script is to help you maintain neat directories, the File Organizer Script arranges files within a given directory according to their creation date or file type (extension).
+The purpose of this Bash script is to assist users in maintaining a neat file structure by automatically classifying files in a given directory according to their kind or creation date. It offers easy-to-follow execution instructions along with choices for organizing files according to criteria like creation date or file extension. The script also includes error handling to handle invalid parameters or missing directories, so users will always receive the proper feedback for any problems they may experience.
 
 The script is run by the following options:
 . -d <directory> : Directory to organize 
