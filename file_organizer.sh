@@ -50,3 +50,4 @@ do
     fi
 done
 
+echo "Successful organization"
